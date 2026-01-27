@@ -13,6 +13,7 @@
     "main": "main.js",
     "scripts": {
         "test": "electron11 . --test",
+        "test-nonarch": "electron . --test",
         "build-x64": "npx electron-packager ./ --platform=linux --arch=x64 --out=dist",
         "build-armv7": "npx electron-packager ./ --platform=linux --arch=armv7l --out=dist",
         "build-win32": "npx electron-packager ./ --platform=win32 --arch=ia32 --out=dist"
