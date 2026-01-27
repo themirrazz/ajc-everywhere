@@ -50,7 +50,7 @@ module.exports = async function (isAdobeFlash, package, updateInfo) {
             app.quit();
             srv.close();
         });
-        //br.removeMenu();
+        br.removeMenu();
         br.loadFile((require('path').join(__dirname, 'splash/update.htm')));
         br.show();
     });
