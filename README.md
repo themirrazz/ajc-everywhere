@@ -9,13 +9,27 @@ AJCEverywhere is a native installer, updater, and launcher for [AJ Classic](http
 * Fast, native performance on Linux
 * Compatible with Raspberry Pi 4 and 5
 
-## Installation guide
+## Usage guide
 > [!WARNING]
 > AJCEverywhere is still in the public alpha stage! Features may break or be unstable.
 
 TBD
 
-## Usage guide
-If you've installed AJCEverywhere from an official source, you'll usually be able to find it in your app launcher (the Start menu on Windows and Launchpad on macOS). Just click on it and it should automatically start downloading the bundle and Flash Player. Once it's done, it'll automatically launch.
+## FAQ
+### Is AJCEverywhere open-source?
+Yes, AJCEverywhere is fully open-source. AJCEverywhere is licensed under a custom license; you can read it in [LICENSE.md](LICENSE.md).
 
-If you're building from source, run `npm test`. If you're not on Arch or an Arch-based distro, use the `npm run test-nonarch` command instead. 
+### How good is the performance?
+The performance is pretty good, even on low-end devices like Raspberry Pis. It performs just as well as the native Windows version, and almost always outperforms WINE.
+
+### If this is "native", why is it written in Electron?
+AJ Classic is written in a combination of Electron and Flash (but mostly Flash). By "native", we mean that we're using the native versions of Electron and Flash instead of running the Windows versions through a comaptibility layer like WINE.
+
+### What does "semi-official" mean?
+AJCEverywhere isn't a client; it's a runtime. Instead of emulating AJ Classic, it downloads the bundle for the official Windows apps and runs it, only making minor tweaks to the config files. While the client is, for the most part, official, the launcher and runtime itself (AJCEverywhere) *isn't* supported by AJHQ or WildWorks. This does NOT mean that AJCEverywhere is officially supported; it only means that it uses the official game bundle for window.
+
+### Why is the code so messy?
+This was thrown together in three or so days, so obviously, it's gonna need to be refactored a bit. We're currently working on this, and plan to have the code fully refactored by the first stable release.
+
+### Is Windows supported?
+Not yet, but we're considering supporting windows in the future.
