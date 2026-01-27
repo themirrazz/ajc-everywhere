@@ -1,0 +1,37 @@
+{
+    "name": "aj-classic",
+    "productName": "AJ Classic",
+    "version": "1.0.0",
+    "description": "Setup AJ Classic on Linux",
+    "keywords": [
+        "animal-jam",
+        "aj-classic"
+    ],
+    "license": "UNLICENSED",
+    "author": "thmrzz",
+    "type": "commonjs",
+    "main": "main.js",
+    "scripts": {
+        "test": "electron11 . --test",
+        "build-x64": "npx electron-packager ./ --platform=linux --arch=x64 --out=dist",
+        "build-armv7": "npx electron-packager ./ --platform=linux --arch=armv7l --out=dist",
+        "build-win32": "npx electron-packager ./ --platform=win32 --arch=ia32 --out=dist"
+    },
+    "dependencies": {
+        "7zip-min": "^2.1.0",
+        "chromium-pickle-js": "^0.2.0",
+        "commander": "^2.20.3",
+        "cuint": "^0.2.2",
+        "glob": "^7.2.3",
+        "js-yaml": "^4.1.1",
+        "minimatch": "^10.1.1",
+        "mkdirp": "^0.5.6",
+        "node-fetch": "^3.3.2",
+        "rimraf": "^2.7.1",
+        "tmp-promise": "^1.1.0"
+    },
+    "devDependencies": {
+        "electron": "^11.5.0",
+        "electron-packager": "^17.1.2"
+    }
+}
