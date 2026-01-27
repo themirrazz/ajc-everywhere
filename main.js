@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+
+
 const config = require('./config.js');
 const os = require('os');
 const dir = path.join(__dirname);
@@ -9,6 +11,13 @@ const fetch = require('./fetch.js');
 const yaml = require('js-yaml')
 
 const { app } = require('electron');
+
+if(fs.existsSync(path.join(__dirname, 'update.tar.gz'))) {
+    spawnSync('tar', ['-xvzf', path.join(__dirname, 'update.tar.gz'), '-C', path.join(__dirname, '../../')]);
+    fs.unlinkSync(path.join(__dirname, 'update.tar.gz'));
+    app.relaunch();
+    app.quit();
+} else require('./updater.js');
 
 app.commandLine.appendSwitch('no-sandbox');
 app.commandLine.appendSwitch("ppapi-flash-path", path.join(pkgdir, 
