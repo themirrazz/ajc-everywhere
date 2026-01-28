@@ -9,13 +9,15 @@ AJCEverywhere is a native installer, updater, and launcher for [AJ Classic](http
 * Fast, native performance on Linux
 * Compatible with Raspberry Pi 4 and 5
 
-## Installation guide
-See [INSTALL.md](INSTALL.md) for information on how to install AJCEverywhere.
-
 ## Usage guide
-> [!WARNING]
-> AJCEverywhere is still in the public alpha stage! Features may break or be unstable.
+### Arch Linux
+You can easily install AJCEverywhere on Arch Linux through the AUR.
+```bash
+yay -S ajceverywhere-bin
+```
+To start AJCEverywhere, run either the `aj-classic` or the `ajceverywhere` command.
 
+### Raspbian (64-bit)
 TBD
 
 ## FAQ
