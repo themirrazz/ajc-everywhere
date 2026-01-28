@@ -14,6 +14,9 @@ module.exports = function (url, options = {}) {
             nodeIntegration: true
         }
     });
+    br.removeMenu();
+    br.loadFile(path.join(__dirname, url));
+    br.on('close', close_func);
     return {
         br: {
             close: () => {
