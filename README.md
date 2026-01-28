@@ -1,13 +1,16 @@
 # AJCEverywhere (Experimental)
 ![A picture of a wolf running in their den in AJCEverywhere](img/hero-image.png)
 
-AJCEverywhere is a native installer, updater, and launcher for [AJ Classic](https://classic.animaljam.com) for operating systems beside Windows/macOS. Unlike other third-party clients, AJCEverywhere aims to provide a *semi-official* experience by using the bundle from the official Windows client with minimal modifications.
+AJCEverywhere is a native installer, updater, and launcher for [AJ Classic](https://classic.animaljam.com) for operating systems beside Windows/macOS. Unlike other third-party clients, AJCEverywhere aims to provide a *semi-official* experience by using the bundle from the official Windows client.
 
 ## Features
 * Uses part of the official client
 * Supports automatic updates to game and launcher
 * Fast, native performance on Linux
 * Compatible with Raspberry Pi 4 and 5
+
+## Installation guide
+See [INSTALL.md](INSTALL.md) for information on how to install AJCEverywhere.
 
 ## Usage guide
 > [!WARNING]
@@ -26,7 +29,7 @@ The performance is pretty good, even on low-end devices like Raspberry Pis. It p
 AJ Classic is written in a combination of Electron and Flash (but mostly Flash). By "native", we mean that we're using the native versions of Electron and Flash instead of running the Windows versions through a comaptibility layer like WINE.
 
 ### What does "semi-official" mean?
-AJCEverywhere isn't a client; it's a runtime. Instead of emulating AJ Classic, it downloads the bundle for the official Windows apps and runs it, only making minor tweaks to the config files. While the client is, for the most part, official, the launcher and runtime itself (AJCEverywhere) *isn't* supported by AJHQ or WildWorks. This does NOT mean that AJCEverywhere is officially supported; it only means that it uses the official game bundle for window.
+AJCEverywhere isn't a client; it's a runtime. Instead of emulating AJ Classic, it downloads the bundle for the official Windows apps and runs it, only making minor tweaks to the config files. While the client itself is 100% official, the launcher and runtime itself (AJCEverywhere) *isn't* supported by AJHQ or WildWorks. This does NOT mean that AJCEverywhere is officially supported; it only means that it uses the official game bundle for window.
 
 ### Is Windows supported?
-Not yet, but we're considering supporting windows in the future.
+Not yet, but we're actively working on Windows support. Stay tuned for more updates.
