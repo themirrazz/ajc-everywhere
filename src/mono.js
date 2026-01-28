@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = function (url, options = {}) {
     if(!options.width) options.width = 500;
     if(!options.height) options.height = 700;
