@@ -28,8 +28,5 @@ AJ Classic is written in a combination of Electron and Flash (but mostly Flash).
 ### What does "semi-official" mean?
 AJCEverywhere isn't a client; it's a runtime. Instead of emulating AJ Classic, it downloads the bundle for the official Windows apps and runs it, only making minor tweaks to the config files. While the client is, for the most part, official, the launcher and runtime itself (AJCEverywhere) *isn't* supported by AJHQ or WildWorks. This does NOT mean that AJCEverywhere is officially supported; it only means that it uses the official game bundle for window.
 
-### Why is the code so messy?
-This was thrown together in three or so days, so obviously, it's gonna need to be refactored a bit. We're currently working on this, and plan to have the code fully refactored by the first stable release.
-
 ### Is Windows supported?
 Not yet, but we're considering supporting windows in the future.
