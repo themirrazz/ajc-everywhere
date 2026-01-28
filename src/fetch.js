@@ -28,6 +28,9 @@ module.exports = function fetch(url, options={}) {
             headers: options.headers,
             method: options.method
         }, function (res) {
+            if(res.headers['location']) {
+                return fetch(res.headers['location'], options).then(resolve).catch(reject);
+            };
             if(options.debug) console.log('[fetch] Response received');
             const chunks = [];
             res.on('data', chunk => chunks.push(chunk));

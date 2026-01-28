@@ -1,0 +1,1 @@
+module.exports = { pkgdir: require('path').join(__dirname, 'pkg') };
