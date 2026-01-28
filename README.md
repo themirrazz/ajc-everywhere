@@ -44,3 +44,9 @@ AJCEverywhere isn't a client; it's a runtime. Instead of emulating AJ Classic, i
 
 ### Is Windows supported?
 Not yet, but we're actively working on Windows support. Stay tuned for more updates.
+
+### Why does it hang on the updater?
+Sometimes, managed networks block it from installing flash. You'll need the Internet Archive to be unblocked to install this on x64 systems, and GitHub to be unblocked to install it on ARM-based systems. If all else fails, manually copy a `libpepflashplayer.so` file to the PKG folder.
+
+### Where is the PKG folder?
+If you install it via AUR or a package manager, or installed it system-wide, it'll be located at `/usr/lib/ajceverywhere/resources/app/unsafe/pkg`. If you install it via the AppImage installer, it'll be located in `~/.local/ajceverywhere/resources/app/pkg`. If you install it manually, you can find it in the `./resources/app/pkg` folder.
