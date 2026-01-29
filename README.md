@@ -40,7 +40,7 @@ The performance is pretty good, even on low-end devices like Raspberry Pis. It p
 AJ Classic is written in a combination of Electron and Flash (but mostly Flash). By "native", we mean that we're using the native versions of Electron and Flash instead of running the Windows versions through a comaptibility layer like WINE.
 
 ### What does "semi-official" mean?
-AJCEverywhere isn't a client; it's a runtime. Instead of emulating AJ Classic, it downloads the bundle for the official Windows apps and runs it, only making minor tweaks to the config files. While the client itself is 100% official, the launcher and runtime itself (AJCEverywhere) *isn't* supported by AJHQ or WildWorks. This does NOT mean that AJCEverywhere is officially supported; it only means that it uses the official game bundle for window.
+AJCEverywhere isn't a client; it's a runtime. Instead of emulating AJ Classic, it downloads the bundle for the official Windows apps and runs it, without making any actual changes to the files. While the client itself is 100% official, the launcher and runtime itself (AJCEverywhere) *isn't* supported by AJHQ or WildWorks. This does NOT mean that AJCEverywhere is officially supported; it only means that it uses the official game bundle for window.
 
 ### Is Windows supported?
 Not yet, but we're actively working on Windows support. Stay tuned for more updates.
