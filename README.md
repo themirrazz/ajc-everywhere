@@ -1,4 +1,10 @@
-# AJCEverywhere (Experimental)
+# AJCEverywhere
+> [!NOTE]
+> This project is no longer actively maintained. I am going to be working on another
+> Electron-compatible runtime. I will be making another, much lighterweight runtime
+> in the future, and it will probably use concepts from this one. But for now,
+> I am taking a break.
+
 ![A picture of a wolf running in their den in AJCEverywhere](img/hero-image.png)
 
 AJCEverywhere is a native installer, updater, and launcher for [AJ Classic](https://classic.animaljam.com) for operating systems beside Windows/macOS. Unlike other third-party clients, AJCEverywhere aims to provide a *semi-official* experience by using the bundle from the official Windows client.
@@ -9,22 +15,12 @@ AJCEverywhere is a native installer, updater, and launcher for [AJ Classic](http
 * Fast, native performance on Linux
 * Compatible with Raspberry Pi 4 and 5
 
-## How to install
-### Ubuntu/Mint
-TBD
-
-### Fedora
-TBD
-
-### Arch Linux
+## How to install (Arch only)
 You can easily install AJCEverywhere on Arch Linux through the AUR.
 ```bash
 yay -S ajceverywhere-bin
 ```
 To start AJCEverywhere, run either the `aj-classic` or the `ajceverywhere` command.
-
-### Raspbian (64-bit)
-TBD
 
 ## Folder structure
 * `img`: Screenshots + AJ Classic icon
@@ -36,11 +32,11 @@ TBD
 ✅ Rename project to `AJCEverywhere`<br>
 ✅ Add support for auto-updating the game<br>
 ✅ Add support for updating the launcer<br>
-❌ Create the proper installing screen (`splash/update.htm`)<br>
+~~❌ Create the proper installing screen (`splash/update.htm`)<br>~~
 ~~❌ Refactor `config.js` into new platform-specific format<br>~~
 ~~❌ Add support for using the the user's Flash installation<br>~~
-❌ Refactor the entire project yet again<br>
-❌ Allow AJC to control updates via `electron-updater`<br>
+~~❌ Refactor the entire project yet again<br>~~
+~~❌ Allow AJC to control updates via `electron-updater`<br>~~
 ~~❌ Rewrite the entire thing in Rust as an Electron-compatible web browser engine~~<br>
 
 ## FAQ
