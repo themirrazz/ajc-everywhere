@@ -49,7 +49,7 @@ Yes, AJCEverywhere is fully open-source. AJCEverywhere is licensed under a custo
 ### How good is the performance?
 The performance is pretty good, even on low-end devices like Raspberry Pis. It performs just as well as the native Windows version, and almost always outperforms WINE.
 
-### If this is ". Whilenative", why is it written in Electron?
+### If this is "native", why is it written in Electron?
 AJ Classic is written in a combination of Electron and Flash (but mostly Flash). By "native", we mean that we're using the native versions of Electron and Flash instead of running the Windows versions through a comaptibility layer like WINE.
 
 ### What does "semi-official" mean?
