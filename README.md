@@ -32,15 +32,15 @@ TBD
 * `util`: Installers, desktop entry, pkgbuild, etc.
 
 ## Roadmap to final release
-✅ Get AJCE working
-✅ Rename project to `AJCEverywhere`
-✅ Add support for auto-updating the game
-✅ Add support for updating the launcer
-❌ Create the proper installing screen (`splash/update.htm`)
-❌ Refactor `config.js` into new platform-specific format
-❌ Add support for using the the user's Flash installation
-❌ Allow AJC to control updates via `electron-updater`
-❌ Convince AJHQ/WW to officially support it
+✅ Get AJCE working<br>
+✅ Rename project to `AJCEverywhere`<br>
+✅ Add support for auto-updating the game<br>
+✅ Add support for updating the launcer<br>
+❌ Create the proper installing screen (`splash/update.htm`)<br>
+❌ Refactor `config.js` into new platform-specific format<br>
+❌ Add support for using the the user's Flash installation<br>
+❌ Allow AJC to control updates via `electron-updater`<br>
+❌ Convince AJHQ/WW to officially support it<br>
 
 ## FAQ
 ### Is AJCEverywhere open-source?
