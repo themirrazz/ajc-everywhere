@@ -1,9 +1,8 @@
 # AJCEverywhere
 > [!NOTE]
-> This project is no longer actively maintained. I am going to be working on another
-> Electron-compatible runtime. I will be making another, much lighterweight runtime
-> in the future, and it will probably use concepts from this one. But for now,
-> I am taking a break.
+> This project is no longer actively maintained. I will be making another, much
+> lighterweight runtime in the future, and it will probably use concepts
+> from this one. But for now, I am taking a break.
 
 ![A picture of a wolf running in their den in AJCEverywhere](img/hero-image.png)
 
