@@ -38,8 +38,9 @@ TBD
 ✅ Add support for updating the launcer<br>
 ❌ Create the proper installing screen (`splash/update.htm`)<br>
 ❌ Refactor `config.js` into new platform-specific format<br>
-❌ Add support for using the the user's Flash installation<br>
+~~❌ Add support for using the the user's Flash installation<br>~~
 ❌ Allow AJC to control updates via `electron-updater`<br>
+~~❌ Rewrite the entire thing in Rust as an Electron-compatible web browser engine~~
 ❌ Convince AJHQ/WW to officially support it<br>
 
 ## FAQ
