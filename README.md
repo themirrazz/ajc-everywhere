@@ -26,8 +26,21 @@ To start AJCEverywhere, run either the `aj-classic` or the `ajceverywhere` comma
 ### Raspbian (64-bit)
 TBD
 
-### Flatpack
-TBD
+## Folder structure
+* `img`: Screenshots + AJ Classic icon
+* `src`: The source code
+* `util`: Installers, desktop entry, pkgbuild, etc.
+
+## Roadmap to final release
+✅ Get AJCE working
+✅ Rename project to `AJCEverywhere`
+✅ Add support for auto-updating the game
+✅ Add support for updating the launcer
+❌ Create the proper installing screen (`splash/update.htm`)
+❌ Refactor `config.js` into new platform-specific format
+❌ Add support for using the the user's Flash installation
+❌ Allow AJC to control updates via `electron-updater`
+❌ Convince AJHQ/WW to officially support it
 
 ## FAQ
 ### Is AJCEverywhere open-source?
@@ -36,7 +49,7 @@ Yes, AJCEverywhere is fully open-source. AJCEverywhere is licensed under a custo
 ### How good is the performance?
 The performance is pretty good, even on low-end devices like Raspberry Pis. It performs just as well as the native Windows version, and almost always outperforms WINE.
 
-### If this is "native", why is it written in Electron?
+### If this is ". Whilenative", why is it written in Electron?
 AJ Classic is written in a combination of Electron and Flash (but mostly Flash). By "native", we mean that we're using the native versions of Electron and Flash instead of running the Windows versions through a comaptibility layer like WINE.
 
 ### What does "semi-official" mean?
