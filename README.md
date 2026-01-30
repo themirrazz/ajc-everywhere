@@ -1,4 +1,8 @@
 # AJCEverywhere
+> [!WARNING]
+> This project has now been replaced with [Grapefruit](https://github.com/themirrazz/grapefruit) and is no longer being maintained!
+> Please use Grapefruit instead of AJCEverywhere.
+
 ![A picture of a wolf running in their den in AJCEverywhere](img/hero-image.png)
 
 AJCEverywhere is a native installer, updater, and launcher for [AJ Classic](https://classic.animaljam.com) for operating systems beside Windows/macOS. Unlike other third-party clients, AJCEverywhere aims to provide a *semi-official* experience by using the bundle from the official Windows client.
